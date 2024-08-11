@@ -21,7 +21,8 @@ Optimización del modelo: Refinar los algoritmos de predicción para mejorar la 
 Documentación detallada: Incluir más ejemplos de uso y una guía detallada para nuevos usuarios.
 
 
-YouTube: https://www.youtube.com/watch?v=gZlyY46LDfw
+YouTube: 
+https://www.youtube.com/watch?v=gZlyY46LDfw
 
-CONTACTO
+Contacto:
 https://linktr.ee/c2mv
