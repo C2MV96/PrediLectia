@@ -12,10 +12,9 @@ Configuración de la interfaz: Uso de Gradio para crear una interfaz que permite
 Instalación y uso:
 Para utilizar PrediLectia v1, clona este repositorio e instala las dependencias necesarias. Luego, simplemente ejecuta el notebook para iniciar la interfaz de usuario con Gradio.
 
-bash
-Copiar código
 pip install -r requirements.txt
 jupyter notebook PrediLectia_Gradio_Final_v1.ipynb
+
 Próximos pasos:
 Mejoras en la interfaz: Ampliar las opciones de configuración y personalización disponibles en la GUI.
 Optimización del modelo: Refinar los algoritmos de predicción para mejorar la precisión y eficiencia.
