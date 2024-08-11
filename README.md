@@ -19,3 +19,6 @@ Próximos pasos:
 Mejoras en la interfaz: Ampliar las opciones de configuración y personalización disponibles en la GUI.
 Optimización del modelo: Refinar los algoritmos de predicción para mejorar la precisión y eficiencia.
 Documentación detallada: Incluir más ejemplos de uso y una guía detallada para nuevos usuarios.
+
+
+YouTube: https://www.youtube.com/watch?v=gZlyY46LDfw
