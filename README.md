@@ -57,11 +57,109 @@
    - **Demostración en Tiempo Real:** La interfaz permite a los usuarios ver cómo los cambios en los parámetros del modelo afectan los resultados en tiempo real. Esto es posible gracias a la capacidad de Gradio para actualizar dinámicamente los gráficos y resultados conforme se ajustan los parámetros, proporcionando una experiencia interactiva y educativa.
 
   
+
 ## Instalación y Uso
 
-Para utilizar **PrediLectia v1**, sigue estos pasos:
+Para utilizar **PrediLectia v1**, sigue los pasos detallados a continuación. Estos pasos te guiarán desde la clonación del repositorio hasta la ejecución de la interfaz gráfica de usuario (GUI) con Gradio para comenzar a realizar predicciones de bioprocesos.
 
-1. Clona este repositorio e instala las dependencias necesarias:
+### Requisitos Previos
+
+Antes de comenzar, asegúrate de tener lo siguiente:
+
+- **Python 3.7 o superior:** PrediLectia está desarrollado en Python, por lo que necesitarás tener instalado Python en tu sistema. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
+
+- **Jupyter Notebook:** PrediLectia se ejecuta en un entorno de Jupyter Notebook, que es una herramienta interactiva para el desarrollo y ejecución de código Python. Si no tienes Jupyter Notebook instalado, puedes instalarlo siguiendo las instrucciones de la [documentación oficial](https://jupyter.org/install).
+
+### Paso 1: Clonar el Repositorio
+
+Primero, clona el repositorio de PrediLectia desde GitHub en tu máquina local. Abre tu terminal o línea de comandos y ejecuta el siguiente comando:
+
+```bash
+git clone https://github.com/tu-usuario/PrediLectia.git
+```
+
+Esto descargará todos los archivos del proyecto en un directorio llamado `PrediLectia` en tu sistema.
+
+### Paso 2: Crear y Activar un Entorno Virtual (Opcional)
+
+Es recomendable crear un entorno virtual para evitar conflictos de dependencias con otras bibliotecas de Python instaladas en tu sistema. Para crear un entorno virtual, sigue estos pasos:
+
+1. Navega al directorio del proyecto:
 
    ```bash
-   pip install -r requirements.txt
+   cd PrediLectia
+   ```
+
+2. Crea un entorno virtual:
+
+   ```bash
+   python -m venv venv
+   ```
+
+3. Activa el entorno virtual:
+
+   - En Windows:
+
+     ```bash
+     .\venv\Scripts\activate
+     ```
+
+   - En macOS/Linux:
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+### Paso 3: Instalar Dependencias
+
+Con el entorno virtual activado (o sin él, si decidiste no usar uno), instala las dependencias necesarias ejecutando el siguiente comando:
+
+```bash
+pip install -r requirements.txt
+```
+
+Este comando instalará todas las bibliotecas listadas en el archivo `requirements.txt`, incluyendo Gradio, NumPy, Pandas, Matplotlib, y otras necesarias para el funcionamiento de PrediLectia.
+
+### Paso 4: Ejecutar el Notebook de PrediLectia
+
+Una vez que las dependencias estén instaladas, puedes ejecutar el notebook que contiene la interfaz y lógica del proyecto. Para hacerlo, sigue estos pasos:
+
+1. Inicia Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+2. En el navegador que se abrirá automáticamente, navega hasta el archivo `PrediLectia_Gradio_Final_v1.ipynb` y haz clic en él para abrirlo.
+
+### Paso 5: Interactuar con la Interfaz de Usuario
+
+Dentro de Jupyter Notebook, ejecuta las celdas del archivo `PrediLectia_Gradio_Final_v1.ipynb` en orden. Esto inicializará la interfaz de usuario con Gradio.
+
+- **Carga de Datos:** Utiliza la interfaz para cargar un archivo Excel con tus datos experimentales.
+  
+- **Configuración del Modelo:** Selecciona y configura el modelo de predicción que deseas aplicar.
+  
+- **Ejecución:** Ejecuta el modelo y visualiza los resultados directamente en la interfaz, que incluirá gráficos y métricas de error.
+  
+- **Exportación:** Si estás satisfecho con los resultados, utiliza la opción de exportación para guardar los datos predichos en un nuevo archivo Excel.
+
+### Paso 6: Desactivar el Entorno Virtual (Si Aplicable)
+
+Si has utilizado un entorno virtual, puedes desactivarlo una vez que hayas terminado de trabajar con PrediLectia ejecutando:
+
+```bash
+deactivate
+```
+
+### Troubleshooting
+
+- **Problemas de Instalación:** Si encuentras problemas durante la instalación de dependencias, asegúrate de que tu versión de Python sea compatible y que las versiones de las bibliotecas especificadas en `requirements.txt` estén actualizadas.
+
+- **Errores de Ejecución:** Si ocurren errores al ejecutar el notebook, verifica que todos los pasos anteriores se hayan seguido correctamente y que las celdas se ejecuten en el orden correcto.
+
+- **Actualizaciones:** Si realizas actualizaciones en el código o las dependencias, asegúrate de reinstalar las dependencias con `pip install -r requirements.txt` para evitar incompatibilidades.
+
+---
+
+Siguiendo estos pasos, deberías poder instalar y utilizar PrediLectia v1 de manera efectiva en tu entorno local. Si tienes alguna pregunta o encuentras problemas durante el proceso, no dudes en consultar la documentación adicional o abrir un issue en GitHub.
