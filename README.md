@@ -38,7 +38,6 @@
 
      - **`export_results_to_excel(results, output_path)`:** Método que permite exportar los resultados del análisis y las predicciones a un archivo Excel, facilitando así su almacenamiento y revisión posterior.
 
-3. **Configuración de la Interfaz:** Uso de Gradio para crear una interfaz que permite a los usuarios cargar un archivo Excel y visualizar los resultados de los modelos de predicción.
 3. **Configuración de la Interfaz con Gradio:**
 
    Gradio es una biblioteca de Python que permite crear interfaces gráficas de usuario (GUI) de manera rápida y sencilla para aplicaciones de machine learning y procesamiento de datos. En **PrediLectia v1**, Gradio se utiliza para facilitar la interacción del usuario con el modelo de predicción de bioprocesos, permitiendo cargar datos, configurar parámetros y visualizar resultados en tiempo real, todo desde una interfaz web accesible.
